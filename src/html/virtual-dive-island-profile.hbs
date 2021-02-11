@@ -2,7 +2,7 @@
 	{{#*inline "main"}}
 
 	<div class="about">
-        {{#> ukContainer size="large"}}
+        {{#> ukContainer}}
             {{#*inline "out"}}
                 <div class="uk-width-3-5 uk-flex">
                     <div class="intro">
@@ -23,7 +23,31 @@
 		{{/ukContainer}}
 	</div>
 
-    {{> gallery items=items.gallery title="Gallery" caption="A Gallery Caption"}}
+    {{> gallery items=items.gallery}}
+
+    {{#> section class="posts"}}
+        {{#> ukContainer}}
+            {{#*inline "out"}}
+
+            <h2 class="uk-text-uppercase">Dive into The next island...</h2>
+
+            {{#> ukGrid class="uk-grid-large uk-flex-wrap uk-child-width-1-4@l uk-child-width-1-2@s uk-margin-bottom" dataUkHeightMatch="target: > div > .uk-card"}}
+				{{#*inline "cells"}}
+
+                	{{#each posts}}
+						{{#with this}}
+							<div>
+								{{> card}}
+							</div>
+						{{/with}}
+					{{/each}}
+
+                {{/inline}}
+			{{/ukGrid}}  
+
+            {{/inline}}
+        {{/ukContainer}}
+	{{/section}}
 
 	{{/inline}}
 {{/main}}

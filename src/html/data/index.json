@@ -3,7 +3,7 @@
 		"siteName": "Template Site",
 		"clientName": "North Isles Virtual Dive"
 	},
-	"ukContainer": "small",
+	"ukContainer": "large",
 	"cta": "Find out more",
 	"menu": [
 		{
@@ -91,35 +91,6 @@
 					"url": "styleguide.html",
 					"getImage": "https://aws.nbcommunication.com/template/img/placeholder-city.jpg",
 					"getSummary": "To best optimise the page and provide the visitor with useful and informative text, it would be good to have a sentence or two included here."
-				}
-			]
-		},
-		"posts": {
-			"config": {
-				"cta": "Read more"
-			},
-			"post": [
-				{
-					"title": "News Post 1",
-					"url": "#",
-					"date_pub": "April 20th 2020",
-					"getImage": "https://aws.nbcommunication.com/template/img/placeholder-columns.jpg",
-					"getSummary": "To best optimise the page and provide the visitor with useful and informative text, it would be good to have a sentence or two included here."
-				},
-				{
-					"title": "News Post 2",
-					"url": "#",
-					"date_pub": "April 17th 2020",
-					"getImage": "https://aws.nbcommunication.com/template/img/placeholder-skyscrapers.jpg",
-					"getSummary": "To best optimise the page and provide the visitor with useful and informative text, it would be good to have a sentence or two included here."
-				},
-				{
-					"title": "News Post 3",
-					"url": "#",
-					"dates": "April 1st 2020, 5pm",
-					"location": "Somewhere over the rainbow",
-					"getImage": "https://aws.nbcommunication.com/template/img/placeholder-sprinkler.jpg",
-					"getSummary": "This is actually an event, to demonstrate the dates and location fields."
 				}
 			]
 		},
@@ -229,5 +200,63 @@
 				"height": "675"
 			}
 		]
-	}
+	},
+    "posts": [
+        {
+            "label": "Find out more",
+            "img": "link-img-1.jpg",
+            "title": "Noup Head, Westray",
+            "text": "Underwater jewels",
+            "cta": "See details"
+        },
+        {
+            "label": "Find out more",
+            "img": "link-img-2.jpg",
+            "title": "Wreck sItes, North Ronaldsay",
+            "text": "Hidden shipwrecks in depths below",
+            "cta": "See details"
+        },
+        {
+            "label": "Find out more",
+            "img": "link-img-3.jpg",
+            "title": "Papa Westray MPA",
+            "text": "Home of the aaks and tysties",
+            "cta": "See details"
+        },
+        {
+            "label": "Find out more",
+            "img": "link-img-4.jpg",
+            "title": "Faray and Holm of Faray SAC",
+            "text": "Searching for the Selkie",
+            "cta": "See details"
+        },
+        {
+            "label": "Find out more",
+            "img": "link-img-5.jpg",
+            "title": "Sanday SAC",
+            "text": "Dynamic kelp forest habitats",
+            "cta": "See details"
+        },
+        {
+            "label": "Find out more",
+            "img": "link-img-6.jpg",
+            "title": "Wyre and Rousay sounds MPA",
+            "text": "Searching for Blue Carbon",
+            "cta": "See details"
+        },
+        {
+            "label": "Find out more",
+            "img": "link-img-7.jpg",
+            "title": "Bay of Franks, Stronsay",
+            "text": "Tidal lagoon oasis of calm",
+            "cta": "See details"
+        },
+        {
+            "label": "Find out more",
+            "img": "link-img-8.jpg",
+            "title": "Sea caves, ShapInsay",
+            "text": "What lies within",
+            "cta": "See details"
+        }
+    ]
 }

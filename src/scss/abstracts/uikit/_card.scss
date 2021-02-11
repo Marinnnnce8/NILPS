@@ -1,0 +1,48 @@
+@mixin hook-card {
+    transition: .3s ease-in-out;
+    min-height: 437px;
+
+    >a {
+        z-index: 2;
+    }
+
+    .uk-button {
+        transition: .3s ease-in-out;
+    }
+
+    @include hover {
+        box-shadow: 0 0 19px -1px rgba($black, .4);
+
+        .uk-card-media-top {
+            transform: scale3d(1.1, 1.1, 1);
+        }
+
+        .uk-button {
+            background-color: $primary-button-green-hover;
+        }
+    }
+}
+
+@mixin hook-card-media-top {
+    min-height: 290px;
+    transition: 1s;
+    backface-visibility: hidden;
+}
+
+@mixin hook-card-body {
+    background-color: $card-body-blue;
+
+    p {
+        font-size: 17px;
+        color: $white;
+    }
+
+    *+p {
+        margin-top: 10px;
+    }
+}
+
+@mixin hook-card-title {
+    color: $card-title-blue;
+    margin-bottom: $global-small-margin;
+}
