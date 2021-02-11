@@ -1,42 +1,43 @@
 .banner {
-	height: calc(75vh - 80px);
-	overflow: hidden;
+    height: 745px;
+    overflow: hidden;
 
-	&::before {
-		background: linear-gradient(0deg, rgba(0, 0, 0, 0.95) 0%, rgba(0, 0, 0, 0) 100%);
-		bottom: 0;
-		content: '';
-		height: 100%;
-		left: 0;
-		position: absolute;
-		width: 100%;
-		z-index: 0;
-	}
+    span {
+        font-size: $global-font-size;
+        font-weight: $font-black;
+        color: $white;
+    }
 
-	.uk-overlay {
-		padding: $global-margin 0;
+    .uk-button-default {
+        box-shadow: 0 0 0 10px rgba($white, .5);
+        background-color: $white;
+        width: 65px;
+        height: 65px;
+        display: block;
+        margin: 25px 0 40px;
 
-		h1 {
-			margin: 0;
-		}
-	}
+        &::after {
+            position: absolute;
+            background-color: rgba($white, .2);
+            border-radius: 50%;
+            content: '';
+            width: calc(100% + 40px);
+            height: calc(100% + 40px);
+            left: -20px;
+            top: -20px;
+        }
 
-	@media (min-width: $breakpoint-small) {
-
-		&::before {
-			height: 75%;
-		}
-
-		.uk-overlay {
-			padding-bottom: $global-medium-margin;
-		}
-	}
-
-	@media (min-width: $breakpoint-large) {
+        svg {
+            color: $primary-button-green;
+            width: 55px;
+        }
+    }
 
 
-		.uk-overlay {
-			padding-bottom: $global-large-margin;
-		}
-	}
+    // @media (min-width: $breakpoint-small) {
+
+    // }
+
+    // @media (min-width: $breakpoint-large) {
+    // }
 }

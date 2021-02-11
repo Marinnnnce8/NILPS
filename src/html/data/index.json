@@ -12,18 +12,47 @@
 			"url": "home.html"
 		},
 		{
-			"name": "about",
-			"title": "About",
+			"name": "islands",
+			"title": "Islands",
 			"children": [
 				{
-					"name": "child",
-					"title": "Child"
+					"name": "noup-head-westray",
+					"title": "Noup Head, Westray"
+				},
+				{
+					"name": "wreck-sites-north-ronaldsay",
+					"title": "Wreck sites, North Ronaldsay"
+				},
+				{
+					"name": "papa-westray-mpa",
+					"title": "Papa Westray MPA"
+				},
+				{
+					"name": "faray-and-holm-of-faray-sac",
+					"title": "Faray and Holm of Faray SAC"
+				},
+				{
+					"name": "sanday-sac",
+					"title": "Sanday SAC"
+				},
+				{
+					"name": "wyre-and-rousay-sounds-mpa",
+					"title": "Wyre and Rousay sounds MPA"
+				},
+				{
+					"name": "bay-of-franks-stronsay",
+					"title": "Bay of Franks, Stronsay"
+				},
+				{
+					"name": "sea-caves-shapinsay",
+					"title": "Sea caves, Shapinsay"
 				}
 			]
 		},
 		{
-			"name": "contact",
-			"title": "Contact"
+			"name": "visit-nilps.co.uk",
+			"title": "Visit NILPS.CO.UK",
+            "class": "uk-button uk-button-primary"
 		}
 	],
 	"social": [
@@ -97,40 +126,76 @@
 		"gallery": [
 			[
 				{
-					"href": "https://aws.nbcommunication.com/template/img/placeholder-columns.jpg",
-					"src": "https://aws.nbcommunication.com/template/img/placeholder-columns.0x768.jpg",
-					"width": "448",
-					"height": "299",
+					"href": "./img/gallery-img-1.jpg",
+					"src": "./img/gallery-img-1.jpg",
+					"width": "393",
+					"height": "269",
 					"alt": "This gallery image has a caption.",
 					"caption": "This gallery image has a caption."
 				},
 				{
-					"href": "https://aws.nbcommunication.com/template/img/placeholder-skyscrapers.jpg",
-					"src": "https://aws.nbcommunication.com/template/img/placeholder-skyscrapers.0x768.jpg",
-					"width": "448",
-					"height": "299"
+					"href": "./img/gallery-img-2.jpg",
+					"src": "./img/gallery-img-2.jpg",
+					"width": "393",
+					"height": "269",
+					"alt": "This gallery image has a caption."
+				},
+				{
+					"href": "./img/gallery-img-3.jpg",
+					"src": "./img/gallery-img-3.jpg",
+					"width": "393",
+					"height": "269",
+					"alt": "This gallery image has a caption."
 				}
 			],
 			[
 				{
-					"href": "https://aws.nbcommunication.com/template/img/placeholder-sprinkler.jpg",
-					"src": "https://aws.nbcommunication.com/template/img/placeholder-sprinkler.0x768.jpg",
-					"width": "334",
-					"height": "223"
+					"href": "./img/gallery-img-4.jpg",
+					"src": "./img/gallery-img-4.jpg",
+					"width": "206",
+					"height": "201"
 				},
 				{
-					"href": "https://aws.nbcommunication.com/template/img/placeholder-town.jpg",
-					"src": "https://aws.nbcommunication.com/template/img/placeholder-town.0x768.jpg",
-					"width": "335",
-					"height": "224",
-					"alt": "This gallery image also has a caption with HTML.",
-					"caption": "This <em>gallery</em> image also has a <strong>caption</strong> with HTML."
+					"href": "./img/gallery-img-5.jpg",
+					"src": "./img/gallery-img-5.jpg",
+					"width": "206",
+					"height": "201"
 				},
 				{
-					"href": "https://aws.nbcommunication.com/template/img/placeholder-waterfall.jpg",
-					"src": "https://aws.nbcommunication.com/template/img/placeholder-waterfall.0x768.jpg",
-					"width": "223",
-					"height": "223"
+					"href": "./img/gallery-img-6.jpg",
+					"src": "./img/gallery-img-6.jpg",
+					"width": "206",
+					"height": "201"
+				},
+				{
+					"href": "./img/gallery-img-7.jpg",
+					"src": "./img/gallery-img-7.jpg",
+					"width": "206",
+					"height": "201"
+				}
+			],
+            [
+				{
+					"href": "./img/gallery-img-8.jpg",
+					"src": "./img/gallery-img-8.jpg",
+					"width": "393",
+					"height": "269",
+					"alt": "This gallery image has a caption.",
+					"caption": "This gallery image has a caption."
+				},
+				{
+					"href": "./img/gallery-img-9.jpg",
+					"src": "./img/gallery-img-9.jpg",
+					"width": "393",
+					"height": "269",
+					"alt": "This gallery image has a caption."
+				},
+				{
+					"href": "./img/gallery-img-10.jpg",
+					"src": "./img/gallery-img-10.jpg",
+					"width": "393",
+					"height": "269",
+					"alt": "This gallery image has a caption."
 				}
 			]
 		],

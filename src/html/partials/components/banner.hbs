@@ -1,10 +1,11 @@
 <div class="banner uk-background-cover uk-position-relative uk-light" data-src="{{#if page.banner.src}}{{page.banner.src}}{{else}}{{aws}}/img/placeholder-castle-banner.jpg{{/if}}" data-uk-img>
-	<div class="uk-overlay uk-position-bottom">
-		{{#> ukContainer size=(default page.banner.size (default page.ukContainer ukContainer))}}
-			{{#*inline "out"}}
-			<h1>{{page.h1}}</h1>
-			{{#if (neq page.name "home")}}{{> ukBreadcrumb}}{{/if}}
-			{{/inline}}
-		{{/ukContainer}}
-	</div>
+    {{#> ukLightbox class="uk-flex uk-flex-middle uk-flex-center uk-flex-column uk-height-1-1"}}
+        {{#*inline "out"}}
+            <h1>{{page.h1}}</h1>
+            <a class="uk-button uk-button-default uk-border-circle uk-padding-remove uk-position-relative" href="{{page.lightbox.href}}" data-caption="{{page.lightbox.caption}}">
+                 {{>renderIcon name="play" class="uk-position-center" viewBox="24 24"}}
+            </a>
+            <span class="uk-text-uppercase uk-display-block">Dive in</span>
+        {{/inline}}
+    {{/ukLightbox}}
 </div>

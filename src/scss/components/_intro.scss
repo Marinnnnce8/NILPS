@@ -1,0 +1,7 @@
+.intro {
+    // background-color: $intro-blue;
+
+    @media (min-width: $breakpoint-medium-max) {
+        padding: 100px 0 55px;
+    }
+}

@@ -1,0 +1,31 @@
+.uk-navbar-nav {
+    @media (min-width: $breakpoint-medium-max) {
+        li {
+            &:not(:last-of-type) {
+                margin-left: 10px;
+            }
+        }
+    }
+}
+
+@mixin hook-navbar-nav-item {
+    text-transform: none;
+    font-weight: $bold;
+    padding-top: 10px;
+    padding-bottom: 12px;
+
+    @include hover {
+        background-color: $nav-item-blue;
+    }
+}
+
+@mixin hook-navbar-dropdown-nav-item {
+    text-transform: none;
+    font-weight: $semi-bold;
+    font-size: 16px;
+    padding: 15px 15px 17px 10px;
+
+    @include hover {
+        background-color: $dropdown-item-blue;
+    }
+}
