@@ -4,16 +4,34 @@
 <div class="about">
     <div class="about-intro uk-position-relative">
         <div role="presentation" class="shape-top">
-            <img class="uk-width-1-1" src="./img/intro-shape.svg" data-uk-svg alt="image">
+            <img class="uk-width-1-1" src="./img/intro-shape-top.svg" data-uk-svg alt="image">
         </div>
         <div role="presentation" class="shape-bottom">
-            <img class="uk-width-1-1" src="./img/intro-shape.svg" data-uk-svg alt="image">
+            <img class="uk-width-1-1" src="./img/intro-shape-bottom.svg" data-uk-svg alt="image">
         </div>
         {{#> ukContainer}}
         {{#*inline "out"}}
         <div class="uk-width-3-5">
             <p class="uk-text-lead">Westray, “Queen o’ the Isles”, is the most north westerly island of the Orkney
-                archipelago, with a vibrant community {{> infobox }} and maritime industry.</p>
+                archipelago, with a vibrant community
+                <button class="uk-button uk-button-text" type="button"
+                    uk-toggle="target: #toggle-info-1; mode: hover; cls: uk-animation-fade" aria-label="Info">
+                    {{>renderIcon name="info" viewBox="24 24"}}
+                    <span id="toggle-info-1" class="info-popup uk-flex-column uk-text-left">
+                        <span>The Royal Society for the Protection of Birds (RSPB) is a conservation charity that
+                            manages 13 nature reserves throughout Orkney, including five in the North Isles.
+                            <a href="#" class="uk-button uk-button-link">Click to learn more about their Noup Cliffs
+                                reserve.</a>
+                        </span>
+                        <span>SiteLink is a resource managed by NatureScot for information and downloads related to
+                            conservation designations.
+                            <a href="#" class="uk-button uk-button-link">Click to explore more information about the
+                                West Westray SPA.</a>
+                        </span>
+                    </span>
+                </button>
+                and maritime industry.
+            </p>
         </div>
         {{/inline}}
         {{/ukContainer}}
@@ -32,14 +50,49 @@
                 sculpted the rock into intricate ledges and precipitous overhangs, deep gullies, isolated stacks, caves
                 and the towering cliffs with their sheer drops.</p>
             <p>The Noup Head cliffs (noup being Old Norse for “steep headland”), on the most westerly tip of Westray,
-                rise up to 90 metres tall and are home to one of the largest seabird colonies {{> infobox }} and the
+                rise up to 90 metres tall and are home to one of the largest seabird colonies
+                <button class="uk-button uk-button-text" type="button"
+                    uk-toggle="target: #toggle-info-2; mode: hover; cls: uk-animation-fade" aria-label="Info">
+                    {{>renderIcon name="info" viewBox="24 24"}}
+                    <span id="toggle-info-2" class="info-popup uk-flex-column uk-text-left">
+                        <span>The Royal Society for the Protection of Birds (RSPB) is a conservation charity that
+                            manages 13 nature reserves throughout Orkney, including five in the North Isles.
+                            <a href="#" class="uk-button uk-button-link">Click to learn more about their Noup Cliffs
+                                reserve.</a>
+                        </span>
+                        <span>SiteLink is a resource managed by NatureScot for information and downloads related to
+                            conservation designations.
+                            <a href="#" class="uk-button uk-button-link">Click to explore more information about the
+                                West Westray SPA.</a>
+                        </span>
+                    </span>
+                </button>
+                and the
                 largest gannetry
                 in Orkney. Various species nest in their thousands upon every rock ledge and crevice, bringing a
                 cacophony of sound (and distinctive aroma) to the cliffs from around May each year. Each species has
-                their own distinctive local name: {{> infobox }} gannets (“Solan Goose”), puffins (“Tammie norie”),
+                their own distinctive local name:
+                <button class="uk-button uk-button-text" type="button"
+                    uk-toggle="target: #toggle-info-3; mode: hover; cls: uk-animation-fade" aria-label="Info">
+                    {{>renderIcon name="info" viewBox="24 24"}}
+                    <span id="toggle-info-3" class="info-popup uk-flex-column uk-text-left">
+                        <span>The Royal Society for the Protection of Birds (RSPB) is a conservation charity that
+                            manages 13 nature reserves throughout Orkney, including five in the North Isles.
+                            <a href="#" class="uk-button uk-button-link">Click to learn more about their Noup Cliffs
+                                reserve.</a>
+                        </span>
+                        <span>SiteLink is a resource managed by NatureScot for information and downloads related to
+                            conservation designations.
+                            <a href="#" class="uk-button uk-button-link">Click to explore more information about the
+                                West Westray SPA.</a>
+                        </span>
+                    </span>
+                </button>
+                gannets (“Solan Goose”), puffins (“Tammie norie”),
                 kittiwakes
                 (“Wekko”), fulmars (“Mallimack”), Arctic Skua (“Scootie Allan”), Arctic Tern (“Pickie terno”),
-                razorbills (“Coulter neb”) and guillemots (“Aak”, which is the Orkney nickname for Westray people).</p>
+                razorbills (“Coulter neb”) and guillemots (“Aak”, which is the Orkney nickname for Westray people).
+            </p>
             <p>On shelving rocks near the base of the cliffs grey seals haul out, and further out in the rapidly
                 deepening waters, dolphins and killer or minke whales might pass by.</p>
             <p>Underneath the frenzied nesting activity on the cliffs the wave-agitated intertidal zone, filled with
@@ -57,9 +110,27 @@
                 reminiscent of a coral reef in deeper waters, and producing a surging and flowing layer of seaweed,
                 water and foam at the surface.</p>
             <p>The natural heritage importance of the cliffs and environs of Noup Head is recognised at local, national
-                and international levels. {{> infobox }} Environmental designations seek to protect and enhance the
+                and international levels.
+                <button class="uk-button uk-button-text" type="button"
+                    uk-toggle="target: #toggle-info-4; mode: hover; cls: uk-animation-fade" aria-label="Info">
+                    {{>renderIcon name="info" viewBox="24 24"}}
+                    <span id="toggle-info-4" class="info-popup uk-flex-column uk-text-left">
+                        <span>The Royal Society for the Protection of Birds (RSPB) is a conservation charity that
+                            manages 13 nature reserves throughout Orkney, including five in the North Isles.
+                            <a href="#" class="uk-button uk-button-link">Click to learn more about their Noup Cliffs
+                                reserve.</a>
+                        </span>
+                        <span>SiteLink is a resource managed by NatureScot for information and downloads related to
+                            conservation designations.
+                            <a href="#" class="uk-button uk-button-link">Click to explore more information about the
+                                West Westray SPA.</a>
+                        </span>
+                    </span>
+                </button>
+                Environmental designations seek to protect and enhance the
                 wildlife
-                populations and associated habitats that are present.</p>
+                populations and associated habitats that are present.
+            </p>
             <p>The designated interests are monitored at intervals to check on species numbers and habitat quality. Over
                 recent years it has become clear that certain seabird populations such as kittiwakes and arctic skuas
                 have been declining, whilst at the same time other species such as gannets have been increasing. It is
@@ -71,9 +142,27 @@
                 extensive, covering up to hundreds of miles.</p>
             <p>The vibrant biodiversity of the Noup Head cliffs and the wider marine ecosystem are linked and
                 interdependent. The grand cliffs of Noup Head allow you to see so much of this ecosystem function play
-                out in front of your eyes. {{> infobox }} While gazing in awe at the amazing seabird city remember that
+                out in front of your eyes.
+                <button class="uk-button uk-button-text" type="button"
+                    uk-toggle="target: #toggle-info-5; mode: hover; cls: uk-animation-fade" aria-label="Info">
+                    {{>renderIcon name="info" viewBox="24 24"}}
+                    <span id="toggle-info-5" class="info-popup uk-flex-column uk-text-left">
+                        <span>The Royal Society for the Protection of Birds (RSPB) is a conservation charity that
+                            manages 13 nature reserves throughout Orkney, including five in the North Isles.
+                            <a href="#" class="uk-button uk-button-link">Click to learn more about their Noup Cliffs
+                                reserve.</a>
+                        </span>
+                        <span>SiteLink is a resource managed by NatureScot for information and downloads related to
+                            conservation designations.
+                            <a href="#" class="uk-button uk-button-link">Click to explore more information about the
+                                West Westray SPA.</a>
+                        </span>
+                    </span>
+                </button>
+                While gazing in awe at the amazing seabird city remember that
                 beneath the
-                waves there is an equally spectacular underwater cliff and world.</p>
+                waves there is an equally spectacular underwater cliff and world.
+            </p>
         </div>
         <aside class="uk-width-2-5">
             {{#> ukLightbox class="uk-box-shadow-xlarge map-img"}}

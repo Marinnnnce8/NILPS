@@ -40,8 +40,8 @@
 @mixin hook-button-text {
 
     svg {
-        width: 18px;
-        height: 18px;
+        width: 24px;
+        height: 24px;
         fill: $info-green;
     }
 }
@@ -50,8 +50,4 @@
     font-weight: $bold;
     text-align: left;
     text-decoration: underline;
-}
-
-@mixin hook-button-link-hover {
-    text-decoration: none;
 }

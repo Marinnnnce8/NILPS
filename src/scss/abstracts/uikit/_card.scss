@@ -30,6 +30,7 @@
 }
 
 @mixin hook-card-body {
+    clip-path: url('#svgPathCard');
     background-color: $card-body-blue;
 
     p {
