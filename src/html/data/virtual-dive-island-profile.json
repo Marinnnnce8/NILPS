@@ -9,5 +9,15 @@
     "lightbox": {
         "href": "https://www.youtube.com/watch?v=CsR2Xy-HGPk&ab_channel=RickSteves%27Europe",
         "caption": "North Isles Video"
+    },
+    "infobox": {
+        "index": "1",
+        "texts": [{
+                "text": "The Royal Society for the Protection of Birds (RSPB) is a conservation charity that manages 13 nature reserves throughout Orkney, including five in the North Isles. <a href='#' class='uk-button uk-button-link'>Click to learn more about their Noup Cliffs reserve.</a>"
+            },
+            {
+                "text": "SiteLink is a resource managed by NatureScot for information and downloads related to conservationdesignations. <a href='#' class='uk-button uk-button-link'>Click to explore more information about the West Westray SPA.</a>"
+            }
+        ]
     }
 }

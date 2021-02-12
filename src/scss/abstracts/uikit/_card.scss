@@ -1,5 +1,5 @@
 @mixin hook-card {
-    transition: .3s ease-in-out;
+    transition: $transition;
     min-height: 437px;
 
     >a {
@@ -7,7 +7,7 @@
     }
 
     .uk-button {
-        transition: .3s ease-in-out;
+        transition: $transition;
     }
 
     @include hover {

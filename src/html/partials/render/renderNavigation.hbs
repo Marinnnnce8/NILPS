@@ -1,15 +1,23 @@
 <ul class="uk-navbar-nav uk-flex-middle" data-uk-nb-nav="back: Back">
 {{#each menu}}
 	{{#with this}}
-	<li class="{{#if children}}uk-parent{{/if}}{{#if (eq ../page.name name)}} uk-active{{/if}}">
-		<a href="{{default url "#"}}" class="{{#if class}}{{class}}{{/if}}">{{title}}</a>
+	<li class="{{#if children}}uk-parent uk-position-relative{{/if}}{{#if (eq ../page.name name)}} uk-active{{/if}}">
+		<a href="{{default url "#"}}" class="{{#if class}}{{class}}{{/if}}">
+            {{title}}
+            {{#if children}}
+                {{>renderIcon name="caret-down" viewBox="480 480"}}
+            {{/if}}
+        </a>
 		{{#if children}}
         <div class="uk-navbar-dropdown">
             <ul class="uk-nav uk-navbar-dropdown-nav" id="nav-{{ida title}}">
             {{#each children}}
                 {{#with this}}
                 <li>
-                    <a href="{{default url "#"}}">{{title}}</a>
+                    <a href="{{default url "#"}}" class="uk-position-relative">
+                        {{title}}
+                        {{>renderIcon name="chevron-right" viewBox="24 24"}}
+                    </a>
                 </li>
                 {{/with}}
             {{/each}}

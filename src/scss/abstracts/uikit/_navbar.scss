@@ -2,30 +2,64 @@
     @media (min-width: $breakpoint-medium-max) {
         li {
             &:not(:last-of-type) {
-                margin-left: 10px;
+                margin-left: 0;
             }
         }
     }
 }
 
 @mixin hook-navbar-nav-item {
-    text-transform: none;
+    clip-path: url('#svgPathButton');
+    transition: $transition;
     font-weight: $bold;
     padding-top: 10px;
     padding-bottom: 12px;
+    padding-right: 30px;
+
+    svg {
+        transition: $transition;
+        position: absolute;
+        right: 8px;
+        top: 50%;
+        transform: translateY(-50%);
+        width: 22px;
+        fill: $caret-blue;
+        opacity: 0;
+    }
 
     @include hover {
         background-color: $nav-item-blue;
+
+        svg {
+            opacity: 1;
+        }
     }
 }
 
 @mixin hook-navbar-dropdown-nav-item {
+    transition: $transition;
+    clip-path: url('#svgPathButton');
     text-transform: none;
     font-weight: $semi-bold;
     font-size: 16px;
-    padding: 15px 15px 17px 10px;
+    padding: 15px 30px 17px 10px;
+
+    svg {
+        transition: $transition;
+        position: absolute;
+        right: 15px;
+        top: 50%;
+        transform: translateY(-50%);
+        width: 12px;
+        fill: $global-link-color;
+        opacity: 0;
+    }
 
     @include hover {
         background-color: $dropdown-item-blue;
+
+        svg {
+            opacity: 1;
+        }
     }
 }

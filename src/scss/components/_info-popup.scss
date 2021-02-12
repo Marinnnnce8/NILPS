@@ -1,0 +1,34 @@
+.info-popup {
+    display: none;
+    background-color: $green-dark;
+    width: 280px;
+    max-width: 280px;
+    opacity: 0;
+    transition: $transition;
+    padding: 25px;
+    position: absolute;
+    bottom: 100%;
+    left: 50%;
+
+    span {
+        color: $white;
+        font-size: 14px;
+        display: block;
+        font-weight: $light;
+
+        &:not(:last-of-type) {
+            margin-bottom: 15px;
+        }
+    }
+
+    &.uk-animation-fade {
+        display: flex;
+        opacity: 1;
+        z-index: 3;
+    }
+
+    @media (min-width: $breakpoint-medium-max) {
+        width: 320px;
+        max-width: 320px;
+    }
+}

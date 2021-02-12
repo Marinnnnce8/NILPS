@@ -1,0 +1,14 @@
+<button class="uk-button uk-button-text" type="button"
+    uk-toggle="target: #toggle-info-1; mode: hover; cls: uk-animation-fade" aria-label="Info">
+    {{>renderIcon name="info" viewBox="24 24"}}
+
+    <span id="toggle-info-{{page.infobox.index}}" class="info-popup uk-flex-column uk-text-left">
+        {{#each page.infobox.texts}}
+        {{#with this}}
+            <span>
+                {{{text}}}
+            </span>
+        {{/with}}
+        {{/each}}
+    </span>
+</button>

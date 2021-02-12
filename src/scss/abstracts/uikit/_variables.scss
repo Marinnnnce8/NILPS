@@ -162,7 +162,7 @@ $text-lead-color: $white;
 // Navbar
 //
 $navbar-dropdown-width: 305px;
-$navbar-dropdown-padding: 15px !default;
+$navbar-dropdown-padding: 12px !default;
 $navbar-nav-item-height: 0;
 $navbar-nav-item-font-size: 16px;
 $navbar-nav-item-color: $global-link-color;
@@ -184,6 +184,8 @@ $button-primary-color: $white;
 $button-line-height: 1;
 $button-padding-horizontal: 25px;
 $button-font-size: 14px;
+$button-link-color: $white;
+$button-link-hover-color: $white;
 
 
 //

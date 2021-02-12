@@ -1,7 +1,57 @@
-@mixin hook-button-primary {
-    text-transform: uppercase;
+@mixin hook-button {
     font-weight: $bold;
     position: relative;
     padding-top: 12px;
     padding-bottom: $global-small-gutter;
+    transition: $transition;
+}
+
+@mixin hook-button-primary {
+    clip-path: url('#svgPathButton');
+    text-transform: uppercase;
+    padding-right: 30px;
+
+    svg {
+        position: absolute;
+        right: 15px;
+        top: 50%;
+        transform: translateY(-50%);
+        width: 12px;
+        fill: $white;
+    }
+}
+
+@mixin hook-button-secondary {
+    text-align: left;
+    clip-path: url('#svgPathButton');
+    padding-right: 40px;
+    line-height: 1.5;
+
+    svg {
+        position: absolute;
+        right: 15px;
+        top: 50%;
+        transform: translateY(-50%);
+        width: 12px;
+        fill: $white;
+    }
+}
+
+@mixin hook-button-text {
+
+    svg {
+        width: 18px;
+        height: 18px;
+        fill: $info-green;
+    }
+}
+
+@mixin hook-button-link {
+    font-weight: $bold;
+    text-align: left;
+    text-decoration: underline;
+}
+
+@mixin hook-button-link-hover {
+    text-decoration: none;
 }
