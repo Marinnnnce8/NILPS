@@ -39,7 +39,7 @@
 
     {{#> ukContainer}}
     {{#*inline "out"}}
-    <div class="uk-flex uk-flex-between">
+    <div class="uk-flex uk-flex-between uk-padding uk-remove-padding-horizontal">
         <div class="uk-width-3-5 uk-margin-large-top">
             <p>Westray, “Queen o’ the Isles”, is the most north westerly island of the Orkney archipelago, with a
                 vibrant community and maritime industry. The island is around 16 kilometres long and up to 6 km wide
@@ -274,30 +274,30 @@
 
 {{> gallery items=items.gallery}}
 
-{{#> section class="posts"}}
-{{#> ukContainer}}
-{{#*inline "out"}}
+<div class="posts">
+    {{#> ukContainer}}
+    {{#*inline "out"}}
 
-<h2 class="uk-text-uppercase">Dive into The next island...</h2>
+    <h2 class="uk-text-uppercase">Dive into The next island...</h2>
 
-{{#> ukGrid class="uk-grid-large uk-flex-wrap uk-child-width-1-4@l uk-child-width-1-2@s uk-margin-bottom"
-dataUkHeightMatch="target: > div > .uk-card"}}
-{{#*inline "cells"}}
+    {{#> ukGrid class="uk-grid-medium uk-flex-wrap uk-child-width-1-4@l uk-child-width-1-2@s uk-margin-bottom"
+    dataUkHeightMatch="target: > div > .uk-card"}}
+    {{#*inline "cells"}}
 
-{{#each posts}}
-{{#with this}}
-<div>
-    {{> card}}
+    {{#each posts}}
+    {{#with this}}
+    <div>
+        {{> card}}
+    </div>
+    {{/with}}
+    {{/each}}
+
+    {{/inline}}
+    {{/ukGrid}}
+
+    {{/inline}}
+    {{/ukContainer}}
 </div>
-{{/with}}
-{{/each}}
-
-{{/inline}}
-{{/ukGrid}}
-
-{{/inline}}
-{{/ukContainer}}
-{{/section}}
 
 {{/inline}}
 {{/main}}

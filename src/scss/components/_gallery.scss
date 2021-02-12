@@ -1,36 +1,49 @@
 .gallery {
+    margin-bottom: 60px;
 
-	&-wrap {
-		margin: 0 -2px;
-		overflow: hidden;
-	}
+    &-wrap {
+        margin: 0 -2px;
+        overflow: hidden;
+    }
 
-	&-row {
-		display: table;
-		width: 100%;
-	}
+    &-row {
+        display: table;
+        width: 100%;
+    }
 
-	&-image {
-		border: 2px solid transparent;
-		display: table-cell;
-		margin: 0;
-		outline: none;
-		overflow: hidden;
-		position: relative;
-		vertical-align: top;
+    &-image {
+        border: 2px solid transparent;
+        display: table-cell;
+        margin: 0;
+        outline: none;
+        overflow: hidden;
+        position: relative;
+        vertical-align: top;
 
-		img {
-			height: auto;
-			width: 100%;
-			vertical-align: middle;
-		}
-	}
+        img {
+            height: auto;
+            width: 100%;
+            vertical-align: middle;
+            transition: 1s;
+            backface-visibility: hidden;
+        }
 
-	&-caption {
-		@include image-caption;
-	}
+        @include hover {
+            img {
+                transform: scale3d(1.1, 1.1, 1);
+            }
+        }
+    }
 
-	.uk-container-expand & {
-		margin: 0 2px;
-	}
+    &-caption {
+        @include image-caption;
+    }
+
+    .uk-container-expand & {
+        margin: 0 2px;
+    }
+
+    @media (min-width: $breakpoint-medium-max) {
+        margin-bottom: 110px;
+    }
 }

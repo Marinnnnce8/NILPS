@@ -1,6 +1,14 @@
 .posts {
+    clip-path: url('#svgPathLinks');
+    background-color: $links-green;
+    padding: 60px 0;
+
     .uk-card-body {
         padding-top: 45px;
         padding-bottom: 15px;
+    }
+
+    @media (min-width: $breakpoint-medium-max) {
+        padding: 100px 0;
     }
 }

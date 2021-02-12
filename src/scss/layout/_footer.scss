@@ -1,71 +1,148 @@
 .footer {
-	font-size: 0.9rem;
+    background-color: $info-green;
+    font-size: 18px;
 
-	@media (max-width: $breakpoint-mobile) {
-		font-size: 0.8rem;
-	}
+    p {
+        color: $white;
+    }
 
-	.legal {
-		padding: $global-small-margin 0;
+    &-top {
+        padding: 80px 0 70px;
 
-		ul {
-			margin: 0;
-			padding: 0;
+        .uk-button {
+            background-color: $large-button-blue;
+            max-width: 270px;
+            width: 100%;
+        }
+    }
 
-			li {
-				display: inline-block;
-				list-style: none;
-				margin: 0;
-				padding: 0;
+    &-middle {
+        padding: 40px 0 60px;
+    }
 
-				a {
-					color: $grey;
+    &-credits {
+        padding: 60px 0 25px;
+        background-color: $footer-bottom-blue;
+        clip-path: url('#svgPathFooterMiddle');
 
-					@include hover {
-						color: $black;
-					}
-				}
+        span {
+            font-weight: $medium;
+        }
 
-				&::after {
-					content: '|';
-					color: $light-grey;
-					display: inline-block;
-					padding: 0 $global-small-margin;
-				}
+        * {
+            font-size: 14px;
+        }
+    }
 
-				&:last-child::after {
-					content: '';
-					padding: 0;
-				}
+    &-bottom {
+        padding: 35px 0 10px;
 
-				@media (max-width: $breakpoint-mobile) {
-					display: block;
+        p {
+            font-size: 16px;
+        }
+    }
 
-					&::after {
-						display: none;
-					}
-				}
-			}
-		}
-	}
+    .uk-button-link {
+        color: $email-blue;
+        font-size: 18px;
 
-	.watermark {
+        @include hover {
+            color: $white;
+        }
+    }
 
-		a {
-			align-items: center;
-			color: $black;
-			display: inline-flex;
-			font-weight: 700;
+    .uk-list {
+        a {
+            width: 45px;
+            height: 45px;
+            background-color: $email-blue;
+            transition: $transition;
 
-			@include hover {
-				color: #e11e2f;
-				text-decoration: none;
-			}
+            @include hover {
+                background-color: $info-green;
 
-			img {
-				height: 1rem;
-				margin-left: 2px;
-			}
-		}
-	}
+                svg {
+                    fill: $email-blue;
+                }
+            }
+        }
+
+        svg {
+            width: 20px;
+            height: 20px;
+            transition: $transition;
+            fill: $info-green;
+        }
+    }
+
+    @media (min-width: $breakpoint-medium-max) {
+        &-top {
+            background-color: $footer-top-blue;
+            clip-path: url('#svgPathFooterTop');
+            margin-top: -40px;
+        }
+    }
+
+    @media (max-width: $breakpoint-mobile) {
+        font-size: 0.8rem;
+    }
+
+    .legal {
+        padding: $global-small-margin 0;
+
+        ul {
+            margin: 0;
+            padding: 0;
+
+            li {
+                display: inline-block;
+                list-style: none;
+                margin: 0;
+                padding: 0;
+
+                a {
+                    color: $grey;
+
+                    @include hover {
+                        color: $black;
+                    }
+                }
+
+                &::after {
+                    content: '|';
+                    color: $light-grey;
+                    display: inline-block;
+                    padding: 0 $global-small-margin;
+                }
+
+                &:last-child::after {
+                    content: '';
+                    padding: 0;
+                }
+
+                @media (max-width: $breakpoint-mobile) {
+                    display: block;
+
+                    &::after {
+                        display: none;
+                    }
+                }
+            }
+        }
+    }
+
+    .watermark {
+
+        a {
+            align-items: center;
+            color: $white;
+            display: inline-flex;
+            transition: $transition;
+
+            @include hover {
+                color: #e11e2f;
+                text-decoration: none;
+            }
+        }
+    }
 }

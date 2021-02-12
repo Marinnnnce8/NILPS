@@ -1,3 +1,11 @@
 @mixin hook-base-h1 {
     text-transform: uppercase;
 }
+
+@mixin hook-base-h2 {
+    color: $info-green;
+
+    @media (min-width: $breakpoint-medium-max) {
+        margin-bottom: 60px;
+    }
+}

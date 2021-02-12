@@ -38,7 +38,6 @@
 }
 
 @mixin hook-button-text {
-
     svg {
         width: 24px;
         height: 24px;
@@ -50,4 +49,9 @@
     font-weight: $bold;
     text-align: left;
     text-decoration: underline;
+}
+
+@mixin hook-button-large {
+    padding-top: 10px;
+    padding-bottom: 10px;
 }

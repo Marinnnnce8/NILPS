@@ -1,7 +1,6 @@
 .about {
     &-intro {
         background-color: $intro-blue;
-        // clip-path: url('#svgPathAboutIntro');
     }
 
     .shape-top,
@@ -10,7 +9,6 @@
         left: 0;
         right: 0;
         width: 100%;
-        // height: 40px;
 
         .uk-svg,
         .uk-svg:not(.uk-preserve) [fill*='#']:not(.uk-preserve) {
