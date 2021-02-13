@@ -2,6 +2,23 @@
     transition: $transition;
     min-height: 437px;
 
+    &.page-active {
+        pointer-events: none;
+
+        &::after {
+            display: block;
+            position: absolute;
+            left: 0;
+            width: 100%;
+            top: 0;
+            bottom: 0;
+            right: 0;
+            content: '';
+            background-color: rgba($white, .6);
+            z-index: 1;
+        }
+    }
+
     >a {
         z-index: 2;
     }

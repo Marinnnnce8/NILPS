@@ -203,6 +203,7 @@
 	},
     "posts": [
         {
+            "active": true,
             "label": "Find out more",
             "img": "link-img-1.jpg",
             "title": "Noup Head, Westray",
