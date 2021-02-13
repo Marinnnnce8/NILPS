@@ -20,8 +20,15 @@
         }
     }
 
-    .banner p .uk-text-bolder {
-        font-weight: $extra-bold;
+    .banner {
+        p .uk-text-bolder {
+            font-weight: $extra-bold;
+        }
+
+        .shape {
+            bottom: -30px;
+            fill: $yellow;
+        }
     }
 
     .text-medium {

@@ -8,7 +8,7 @@
 const main = {
 
 	init: () => {
-        console.log('script loaded');
+        ImageMap('img[usemap]')
 	}
 };
 

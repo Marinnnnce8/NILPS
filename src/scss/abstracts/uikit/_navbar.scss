@@ -22,12 +22,12 @@
     font-weight: $bold;
     padding-top: 10px;
     padding-bottom: 12px;
-    padding-right: 30px;
+    padding-right: 15px;
 
     svg {
         transition: $transition;
         position: absolute;
-        right: 8px;
+        right: 5px;
         top: 50%;
         transform: translateY(-50%);
         width: 22px;
@@ -47,8 +47,24 @@
     }
 
     @media (min-width: $breakpoint-small) {
+        padding-right: 25px;
+
         svg {
             opacity: 0;
+        }
+    }
+
+    @media (min-width: $breakpoint-medium) {
+        padding-right: 30px;
+
+        svg {
+            right: 8px;
+        }
+    }
+
+    @media (max-width: $breakpoint-xsmall-max) {
+        svg {
+            transform: translateY(-50%) rotate(-90deg);
         }
     }
 }
@@ -67,6 +83,10 @@
             height: 20px;
             margin-right: 5px;
         }
+    }
+
+    @media (min-width: $breakpoint-small) {
+        clip-path: url('#svgPathDropdown');
     }
 
     @media (max-width: $breakpoint-xsmall-max) {
