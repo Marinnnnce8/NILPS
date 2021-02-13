@@ -1,5 +1,9 @@
 @mixin hook-base-h1 {
     text-transform: uppercase;
+
+    @media (max-width: $breakpoint-small) {
+        font-size: 22px;
+    }
 }
 
 @mixin hook-base-h2 {

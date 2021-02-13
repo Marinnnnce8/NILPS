@@ -4,7 +4,8 @@
         "src": ".\/img\/banner-img.jpg",
         "width": "780",
         "height": "758",
-        "alt": "image"
+        "alt": "image",
+        "lightbox": true
     },
     "lightbox": {
         "href": "https://www.youtube.com/watch?v=CsR2Xy-HGPk&ab_channel=RickSteves%27Europe",

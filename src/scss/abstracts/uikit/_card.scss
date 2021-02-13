@@ -32,6 +32,7 @@
 @mixin hook-card-body {
     clip-path: url('#svgPathCard');
     background-color: $card-body-blue;
+    -webkit-mask-image: -webkit-radial-gradient(#fff, #000);
 
     p {
         font-size: 17px;
@@ -40,6 +41,15 @@
 
     *+p {
         margin-top: 10px;
+    }
+
+    >svg {
+        width: 20px;
+        height: 20px;
+        fill: $card-title-blue;
+        position: absolute;
+        left: 0;
+        top: 40px;
     }
 }
 

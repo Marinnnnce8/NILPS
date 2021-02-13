@@ -1,15 +1,18 @@
-<ul class="uk-navbar-nav uk-flex-middle" data-uk-nb-nav="back: Back">
+<ul class="uk-navbar-nav uk-flex-middle{{#if desktop}} uk-visible@s{{/if}}" data-uk-nb-nav="back: Back">
 {{#each menu}}
 	{{#with this}}
 	<li class="{{#if children}}uk-parent uk-position-relative{{/if}}{{#if (eq ../page.name name)}} uk-active{{/if}}">
-		<a href="{{default url "#"}}" class="{{#if class}}{{class}}{{/if}}">
+		<a href="{{default url "#"}}" class="{{#if class}}{{class}}{{/if}} uk-position-relative">
             {{title}}
             {{#if children}}
                 {{>renderIcon name="caret-down" viewBox="480 480"}}
             {{/if}}
         </a>
 		{{#if children}}
-        <div class="uk-navbar-dropdown">
+        <div class="uk-navbar-dropdown" id="nav-children-1">
+            <button class="uk-button uk-button-link uk-text-uppercase uk-text-bold uk-hidden@s" data-uk-toggle="target: #nav-children-1; animation: true">
+                 {{>renderIcon name="arrow-left"}}
+                Back</button>
             <ul class="uk-nav uk-navbar-dropdown-nav" id="nav-{{ida title}}">
             {{#each children}}
                 {{#with this}}

@@ -1,3 +1,9 @@
 {
-	"h1": "Noup Head, Westray"
+    "banner": {
+        "src": ".\/img\/home-banner.jpg",
+        "width": "780",
+        "height": "758",
+        "alt": "image",
+        "home": true
+    }
 }

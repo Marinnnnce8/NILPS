@@ -2,10 +2,11 @@
     <a href="{{url}}" class="uk-position-cover" aria-label="{{label}}"></a>
     <div data-uk-img class="uk-card-media-top uk-background-cover uk-position-cover" style="background-image: url('./img/{{img}}');"></div>
     <div class="uk-card-body uk-position-relative uk-position-z-index">
+        {{> renderIcon name="arrow-right"}}
         <h3 class="uk-card-title uk-text-uppercase">{{title}}</h3>
         <p class="uk-text-bold">{{text}}</p>
         <a href="{{url}}" class="uk-button uk-button-primary uk-width-1-1">
-            {{!-- {{> renderIcon name="chevron-right"}} --}}
+            {{> renderIcon name="chevron-right"}}
             {{cta}}
         </a>
     </div>

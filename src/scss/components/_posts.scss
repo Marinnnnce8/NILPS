@@ -1,14 +1,39 @@
 .posts {
-    clip-path: url('#svgPathLinks');
-    background-color: $links-green;
-    padding: 60px 0;
+    padding: 100px 0;
 
     .uk-card-body {
-        padding-top: 45px;
+        padding-top: 0;
         padding-bottom: 15px;
     }
 
-    @media (min-width: $breakpoint-medium-max) {
-        padding: 100px 0;
+    &:not(.posts-home) {
+        clip-path: url('#svgPathLinks');
+        background-color: $links-green;
+    }
+
+    &.posts-home {
+        margin-top: -150px;
+    }
+
+    @media (min-width: $breakpoint-xlarge) {
+        &.posts-home {
+            margin-top: -650px;
+        }
+    }
+
+    @media (min-width: $breakpoint-large) {
+        &.posts-home {
+            margin-top: -450px;
+        }
+    }
+
+    @media (min-width: $breakpoint-medium) {
+        &.posts-home {
+            margin-top: -350px;
+        }
+    }
+
+    @media (min-width: $breakpoint-small) {
+        padding: 100px 0 200px;
     }
 }

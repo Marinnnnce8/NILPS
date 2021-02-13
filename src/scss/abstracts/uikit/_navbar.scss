@@ -6,6 +6,14 @@
             }
         }
     }
+
+    @media (max-width: $breakpoint-xsmall-max) {
+        display: block;
+
+        .uk-parent {
+            position: static !important;
+        }
+    }
 }
 
 @mixin hook-navbar-nav-item {
@@ -24,7 +32,6 @@
         transform: translateY(-50%);
         width: 22px;
         fill: $caret-blue;
-        opacity: 0;
     }
 
     @include hover {
@@ -33,6 +40,37 @@
         svg {
             opacity: 1;
         }
+    }
+
+    @media (min-width: $breakpoint-small) {
+        svg {
+            opacity: 0;
+        }
+    }
+}
+
+@mixin hook-navbar-dropdown {
+    .uk-button-link {
+        color: $global-link-color;
+        font-size: 24px;
+        text-decoration: none;
+        margin-bottom: 15px;
+        display: flex;
+        align-items: center;
+
+        svg {
+            width: 20px;
+            height: 20px;
+            margin-right: 5px;
+        }
+    }
+
+    @media (max-width: $breakpoint-xsmall-max) {
+        left: -0 !important;
+        width: 100%;
+        top: -15px !important;
+        height: calc(100vh + 15px);
+        padding-top: 60px;
     }
 }
 
@@ -62,4 +100,11 @@
             opacity: 1;
         }
     }
+}
+
+@mixin hook-navbar-toggle {
+    background-color: $global-link-color;
+    outline: none;
+    border: 0;
+    height: 48px;
 }

@@ -1,0 +1,36 @@
+.template-home {
+    background-color: $home-bg-blue;
+
+    h1,
+    h1 span {
+        font-size: 34px;
+        margin-bottom: 40px;
+    }
+
+    h1 span {
+        font-weight: $medium;
+    }
+
+    .uk-text-lead {
+        font-size: 22px;
+    }
+
+    p,
+    .uk-text-lead {
+        color: $white;
+    }
+
+    @media (min-width: $breakpoint-medium-max) {
+
+        h1,
+        h1 span {
+            font-size: 44px;
+            margin-bottom: 60px;
+        }
+
+        .uk-text-lead {
+            padding-right: 15px;
+            font-size: 28px;
+        }
+    }
+}

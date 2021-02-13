@@ -1,3 +1,8 @@
 [data-uk-lightbox] a {
-	cursor: zoom-in;
+    cursor: zoom-in;
+}
+
+body,
+html {
+    overflow-x: hidden;
 }

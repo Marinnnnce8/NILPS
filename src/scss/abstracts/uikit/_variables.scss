@@ -176,7 +176,7 @@ $navbar-dropdown-nav-item-hover-color: $global-link-color;
 $navbar-dropdown-nav-item-onclick-color: $global-link-color;
 $navbar-dropdown-nav-item-active-color: $global-link-color;
 $navbar-dropdown-background: $dropdown-blue;
-
+$navbar-toggle-color: $white;
 
 //
 // Button
@@ -202,4 +202,9 @@ $card-title-font-size: 17px;
 $border-rounded-border-radius: 25px;
 
 
-
+//
+// Modal
+//
+$modal-background: $dropdown-blue;
+$modal-padding-vertical: 60px;
+$modal-padding-vertical-s: 60px;

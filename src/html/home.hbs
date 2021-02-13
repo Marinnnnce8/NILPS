@@ -1,22 +1,32 @@
 {{#> main}}
-	{{#*inline "main"}}
+{{#*inline "main"}}
 
-	{{#> ukSection heading="Internal Pages" size="large"}}
-		{{#*inline "out"}}
+    <div class="uk-position-relative map">
+        <img loading="lazy" width="1920" height="2180" src="./img/map-large.png" alt="north isles map">
+    </div>
 
-		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae optio vitae totam et sunt quis sint non quam, quidem nostrum quia vel ex voluptates deserunt eum esse voluptate consequuntur? Placeat?</p>
+<div class="posts posts-home uk-position-z-index uk-position-relative">
+    {{#> ukContainer}}
+    {{#*inline "out"}}
 
-		{{/inline}}
-	{{/ukSection}}
+    {{#> ukGrid class="uk-grid-medium uk-flex-wrap uk-child-width-1-4@l uk-child-width-1-2@s uk-margin-bottom"
+    dataUkHeightMatch="target: > div > .uk-card"}}
+    {{#*inline "cells"}}
 
-	{{#> ukSection heading="Latest News" size="large"}}
-		{{#*inline "out"}}
+    {{#each posts}}
+    {{#with this}}
+    <div>
+        {{> card}}
+    </div>
+    {{/with}}
+    {{/each}}
 
-		<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim labore ea sequi dolorem porro qui temporibus, est nobis inventore magni vero magnam iste facilis. Qui omnis ratione aliquam temporibus voluptates.</p>
+    {{/inline}}
+    {{/ukGrid}}
 
-		{{/inline}}
-	{{/ukSection}}
+    {{/inline}}
+    {{/ukContainer}}
+</div>
 
-	{{/inline}}
+{{/inline}}
 {{/main}}
-
