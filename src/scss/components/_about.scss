@@ -44,10 +44,31 @@
         }
     }
 
+    aside {
+
+        p,
+        a {
+            font-weight: $extra-bold;
+        }
+
+        p {
+            color: $info-green;
+            font-size: 20px;
+        }
+
+        .uk-text-large {
+            font-size: 20px;
+        }
+    }
+
     @media (min-width: $breakpoint-medium-max) {
         &-intro {
-            padding: 45px 0 0;
+            padding: 20px 0;
             margin-top: -55px;
+        }
+
+        .shape-bottom img {
+            height: 55px;
         }
 
         aside {
@@ -56,11 +77,17 @@
             padding-left: 15px;
         }
     }
+
     @media (min-width: $breakpoint-medium) {
         aside {
             padding-left: 25px;
         }
+
+        .map-img {
+            margin-bottom: 80px;
+        }
     }
+
     @media (max-width: $breakpoint-small-max) {
         &-content {
             flex-direction: column-reverse;

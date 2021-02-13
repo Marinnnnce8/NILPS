@@ -10,71 +10,11 @@
 
 @font-face {
     font-family: 'Rawline';
-    src: url('../fonts/Rawline-ThinItalic.woff2') format('woff2'),
-        url('../fonts/Rawline-ThinItalic.woff') format('woff'),
-        url('../fonts/Rawline-ThinItalic.ttf') format('truetype');
-    font-weight: 100;
-    font-style: italic;
-    font-display: swap;
-}
-
-@font-face {
-    font-family: 'Rawline';
-    src: url('../fonts/Rawline-Thin.woff2') format('woff2'),
-        url('../fonts/Rawline-Thin.woff') format('woff'),
-        url('../fonts/Rawline-Thin.ttf') format('truetype');
-    font-weight: 100;
-    font-style: normal;
-    font-display: swap;
-}
-
-@font-face {
-    font-family: 'Rawline';
-    src: url('../fonts/Rawline-Italic.woff2') format('woff2'),
-        url('../fonts/Rawline-Italic.woff') format('woff'),
-        url('../fonts/Rawline-Italic.ttf') format('truetype');
-    font-weight: normal;
-    font-style: italic;
-    font-display: swap;
-}
-
-@font-face {
-    font-family: 'Rawline';
-    src: url('../fonts/Rawline-Medium.woff2') format('woff2'),
-        url('../fonts/Rawline-Medium.woff') format('woff'),
-        url('../fonts/Rawline-Medium.ttf') format('truetype');
-    font-weight: 500;
-    font-style: italic;
-    font-display: swap;
-}
-
-@font-face {
-    font-family: 'Rawline';
-    src: url('../fonts/Rawline-Medium_1.woff2') format('woff2'),
-        url('../fonts/Rawline-Medium_1.woff') format('woff'),
-        url('../fonts/Rawline-Medium_1.ttf') format('truetype');
-    font-weight: 500;
-    font-style: normal;
-    font-display: swap;
-}
-
-@font-face {
-    font-family: 'Rawline';
     src: url('../fonts/Rawline-Light.woff2') format('woff2'),
         url('../fonts/Rawline-Light.woff') format('woff'),
         url('../fonts/Rawline-Light.ttf') format('truetype');
     font-weight: 300;
     font-style: normal;
-    font-display: swap;
-}
-
-@font-face {
-    font-family: 'Rawline';
-    src: url('../fonts/Rawline-LightItalic.woff2') format('woff2'),
-        url('../fonts/Rawline-LightItalic.woff') format('woff'),
-        url('../fonts/Rawline-LightItalic.ttf') format('truetype');
-    font-weight: 300;
-    font-style: italic;
     font-display: swap;
 }
 
@@ -90,11 +30,11 @@
 
 @font-face {
     font-family: 'Rawline';
-    src: url('../fonts/Rawline-ExtraLightItalic.woff2') format('woff2'),
-        url('../fonts/Rawline-ExtraLightItalic.woff') format('woff'),
-        url('../fonts/Rawline-ExtraLightItalic.ttf') format('truetype');
-    font-weight: 200;
-    font-style: italic;
+    src: url('../fonts/Rawline-Medium.woff2') format('woff2'),
+        url('../fonts/Rawline-Medium.woff') format('woff'),
+        url('../fonts/Rawline-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
     font-display: swap;
 }
 
@@ -105,16 +45,6 @@
         url('../fonts/Rawline-SemiBold.ttf') format('truetype');
     font-weight: 600;
     font-style: normal;
-    font-display: swap;
-}
-
-@font-face {
-    font-family: 'Rawline';
-    src: url('../fonts/Rawline-BoldItalic.woff2') format('woff2'),
-        url('../fonts/Rawline-BoldItalic.woff') format('woff'),
-        url('../fonts/Rawline-BoldItalic.ttf') format('truetype');
-    font-weight: bold;
-    font-style: italic;
     font-display: swap;
 }
 
@@ -140,16 +70,6 @@
 
 @font-face {
     font-family: 'Rawline';
-    src: url('../fonts/Rawline-ExtraBoldItalic.woff2') format('woff2'),
-        url('../fonts/Rawline-ExtraBoldItalic.woff') format('woff'),
-        url('../fonts/Rawline-ExtraBoldItalic.ttf') format('truetype');
-    font-weight: 800;
-    font-style: italic;
-    font-display: swap;
-}
-
-@font-face {
-    font-family: 'Rawline';
     src: url('../fonts/Rawline-Black.woff2') format('woff2'),
         url('../fonts/Rawline-Black.woff') format('woff'),
         url('../fonts/Rawline-Black.ttf') format('truetype');
@@ -157,24 +77,3 @@
     font-style: normal;
     font-display: swap;
 }
-
-@font-face {
-    font-family: 'Rawline';
-    src: url('../fonts/Rawline-SemiBoldItalic.woff2') format('woff2'),
-        url('../fonts/Rawline-SemiBoldItalic.woff') format('woff'),
-        url('../fonts/Rawline-SemiBoldItalic.ttf') format('truetype');
-    font-weight: 600;
-    font-style: italic;
-    font-display: swap;
-}
-
-@font-face {
-    font-family: 'Rawline';
-    src: url('../fonts/Rawline-BlackItalic.woff2') format('woff2'),
-        url('../fonts/Rawline-BlackItalic.woff') format('woff'),
-        url('../fonts/Rawline-BlackItalic.ttf') format('truetype');
-    font-weight: 900;
-    font-style: italic;
-    font-display: swap;
-}
-

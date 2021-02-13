@@ -34,6 +34,10 @@
         fill: $caret-blue;
     }
 
+    &.uk-button-primary {
+        font-weight: $font-black;
+    }
+
     @include hover {
         background-color: $nav-item-blue;
 

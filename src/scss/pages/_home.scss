@@ -8,11 +8,24 @@
     }
 
     h1 span {
-        font-weight: $medium;
+        font-weight: $normal;
     }
 
     .uk-text-lead {
         font-size: 22px;
+        font-weight: $medium;
+
+        strong {
+            font-weight: $extra-bold;
+        }
+    }
+
+    .banner p .uk-text-bolder {
+        font-weight: $extra-bold;
+    }
+
+    .text-medium {
+        font-weight: $medium;
     }
 
     p,
@@ -29,7 +42,7 @@
         }
 
         .uk-text-lead {
-            padding-right: 15px;
+            padding-right: 8px;
             font-size: 28px;
         }
     }
