@@ -107,7 +107,7 @@
 				{
 					"href": "./img/gallery-img-2.jpg",
 					"src": "./img/gallery-img-2.jpg",
-					"width": "393",
+					"width": "396",
 					"height": "269",
 					"alt": "This gallery image has a caption."
 				},
@@ -123,25 +123,25 @@
 				{
 					"href": "./img/gallery-img-4.jpg",
 					"src": "./img/gallery-img-4.jpg",
-					"width": "206",
+					"width": "294",
 					"height": "201"
 				},
 				{
 					"href": "./img/gallery-img-5.jpg",
 					"src": "./img/gallery-img-5.jpg",
-					"width": "206",
+					"width": "296",
 					"height": "201"
 				},
 				{
 					"href": "./img/gallery-img-6.jpg",
 					"src": "./img/gallery-img-6.jpg",
-					"width": "206",
+					"width": "294",
 					"height": "201"
 				},
 				{
 					"href": "./img/gallery-img-7.jpg",
 					"src": "./img/gallery-img-7.jpg",
-					"width": "206",
+					"width": "295",
 					"height": "201"
 				}
 			],
@@ -149,7 +149,7 @@
 				{
 					"href": "./img/gallery-img-8.jpg",
 					"src": "./img/gallery-img-8.jpg",
-					"width": "393",
+					"width": "395",
 					"height": "269",
 					"alt": "This gallery image has a caption.",
 					"caption": "This gallery image has a caption."
@@ -157,14 +157,14 @@
 				{
 					"href": "./img/gallery-img-9.jpg",
 					"src": "./img/gallery-img-9.jpg",
-					"width": "393",
+					"width": "397",
 					"height": "269",
 					"alt": "This gallery image has a caption."
 				},
 				{
 					"href": "./img/gallery-img-10.jpg",
 					"src": "./img/gallery-img-10.jpg",
-					"width": "393",
+					"width": "394",
 					"height": "269",
 					"alt": "This gallery image has a caption."
 				}

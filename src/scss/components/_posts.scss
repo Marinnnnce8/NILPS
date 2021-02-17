@@ -15,9 +15,13 @@
         margin-top: -150px;
     }
 
-    @media (min-width: $breakpoint-xlarge) {
+    @media (min-width: $breakpoint-small) {
+        padding: 100px 0 200px;
+    }
+
+    @media (min-width: $breakpoint-medium) {
         &.posts-home {
-            margin-top: -650px;
+            margin-top: -350px;
         }
     }
 
@@ -27,13 +31,9 @@
         }
     }
 
-    @media (min-width: $breakpoint-medium) {
+    @media (min-width: $breakpoint-xlarge) {
         &.posts-home {
-            margin-top: -350px;
+            margin-top: -630px;
         }
-    }
-
-    @media (min-width: $breakpoint-small) {
-        padding: 100px 0 200px;
     }
 }

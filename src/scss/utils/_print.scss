@@ -1,13 +1,33 @@
 @media print {
 
-	.header,
-	.footer,
-	.uk-button,
-	.uk-breadcrumb,
-	.uk-pagination,
-	.uk-modal,
-	.nb-cookie,
-	.nb-form {
-		display: none !important;
-	}
+    .header,
+    .footer,
+    .uk-button,
+    .uk-breadcrumb,
+    .uk-pagination,
+    .uk-modal,
+    .nb-cookie,
+    .shape-top,
+    .shape-bottom,
+    aside p,
+    .gallery,
+    .banner span.uk-display-block,
+    .banner .uk-svg,
+    .map-img .uk-svg,
+    .posts,
+    .nb-form {
+        display: none !important;
+    }
+
+    .banner {
+        height: auto;
+    }
+
+    .about-content {
+        padding-top: 0;
+
+        .uk-margin-large-top {
+            margin-top: 0 !important;
+        }
+    }
 }
