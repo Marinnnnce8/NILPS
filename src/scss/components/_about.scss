@@ -66,6 +66,18 @@
         }
     }
 
+    @media (min-width: $breakpoint-medium) {
+        aside {
+            margin-top: -185px;
+            max-width: 370px;
+            padding-left: 25px;
+        }
+
+        .map-img {
+            margin-bottom: 80px;
+        }
+    }
+
     @media (min-width: $breakpoint-medium-max) {
         &-intro {
             padding: 20px 0;
@@ -77,19 +89,7 @@
         }
 
         aside {
-            margin-top: -165px;
-            max-width: 370px;
             padding-left: 15px;
-        }
-    }
-
-    @media (min-width: $breakpoint-medium) {
-        aside {
-            padding-left: 25px;
-        }
-
-        .map-img {
-            margin-bottom: 80px;
         }
     }
 

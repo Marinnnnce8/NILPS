@@ -8,10 +8,9 @@
 
     &-top {
         background-color: $footer-top-blue;
-        clip-path: url('#svgPathFooterTop');
         padding: 80px 0 124px;
         position: relative;
-        top: -67px;
+        margin-top: 0;
         z-index: 1;
 
         .uk-button {
@@ -95,19 +94,17 @@
         font-weight: $medium;
     }
 
-    @media (min-width: $breakpoint-medium-max) {
-        &-top {
-            margin-top: -40px;
-        }
-    }
-
     @media (min-width: $breakpoint-xsmall-max) {
-        &-top {
-            margin-top: -70px;
-        }
 
         &-credits {
             padding: 60px 0 25px;
+        }
+    }
+
+    @media (min-width: $breakpoint-medium-max) {
+        &-top {
+            clip-path: url('#svgPathFooterTop');
+            margin-top: -45px;
         }
     }
 
