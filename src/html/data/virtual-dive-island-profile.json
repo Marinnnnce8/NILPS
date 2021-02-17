@@ -9,6 +9,7 @@
     },
     "lightbox": {
         "href": "https://www.youtube.com/watch?v=CsR2Xy-HGPk&ab_channel=RickSteves%27Europe",
-        "caption": "North Isles Video"
+        "caption": "North Isles Video",
+        "label": "Click to play the video"
     }
 }

@@ -208,56 +208,64 @@
             "img": "link-img-1.jpg",
             "title": "Noup Head, Westray",
             "text": "Underwater jewels",
-            "cta": "See details"
+            "cta": "See details",
+            "url": "#"
         },
         {
             "label": "Find out more",
             "img": "link-img-2.jpg",
             "title": "Wreck sItes, North Ronaldsay",
             "text": "Hidden shipwrecks in depths below",
-            "cta": "See details"
+            "cta": "See details",
+            "url": "#"
         },
         {
             "label": "Find out more",
             "img": "link-img-3.jpg",
             "title": "Papa Westray MPA",
             "text": "Home of the aaks and tysties",
-            "cta": "See details"
+            "cta": "See details",
+            "url": "#"
         },
         {
             "label": "Find out more",
             "img": "link-img-4.jpg",
             "title": "Faray and Holm of Faray SAC",
             "text": "Searching for the Selkie",
-            "cta": "See details"
+            "cta": "See details",
+            "url": "#"
         },
         {
             "label": "Find out more",
             "img": "link-img-5.jpg",
             "title": "Sanday SAC",
             "text": "Dynamic kelp forest habitats",
-            "cta": "See details"
+            "cta": "See details",
+            "url": "#"
         },
         {
             "label": "Find out more",
             "img": "link-img-6.jpg",
             "title": "Wyre and Rousay sounds MPA",
             "text": "Searching for Blue Carbon",
-            "cta": "See details"
+            "cta": "See details",
+            "url": "#"
         },
         {
             "label": "Find out more",
             "img": "link-img-7.jpg",
             "title": "Bay of Franks, Stronsay",
             "text": "Tidal lagoon oasis of calm",
-            "cta": "See details"
+            "cta": "See details",
+            "url": "#"
         },
         {
             "label": "Find out more",
             "img": "link-img-8.jpg",
             "title": "Sea caves, ShapInsay",
             "text": "What lies within",
-            "cta": "See details"
+            "cta": "See details",
+            "url": "#"
         }
     ]
 }
