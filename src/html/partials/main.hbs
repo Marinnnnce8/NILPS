@@ -40,13 +40,13 @@
                 <div id="nav">
                     {{> renderNavigation desktop=true}}
                 </div>
-                <button href="#nav" class="uk-navbar-toggle uk-hidden@s"
+                <a href="#nav-mob" class="uk-navbar-toggle uk-hidden@s"
                     data-uk-toggle="animation: uk-animation-slide-left;" aria-label="Toggle Navigation">
                     <span data-uk-navbar-toggle-icon></span>
-                </button>
+                </a>
 
-                <div id="nav" class="uk-modal-container uk-hidden@s" data-uk-modal>
-                    <button class="uk-modal-close-default" type="button" data-uk-close></button>
+                <div id="nav-mob" class="uk-modal-container uk-hidden@s" data-uk-modal>
+                    <button class="uk-modal-close-default" data-uk-close></button>
                     <div>
                         {{> renderNavigation}}
                     </div>
