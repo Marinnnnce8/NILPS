@@ -1,6 +1,7 @@
 @mixin hook-modal-close {
     width: 48px;
     height: 48px;
+    z-index: 1021;
 
     svg {
         fill: $primary;
