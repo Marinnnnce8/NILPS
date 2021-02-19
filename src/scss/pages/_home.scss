@@ -21,6 +21,12 @@
     }
 
     .banner {
+
+        p,
+        .uk-text-lead {
+            color: $white;
+        }
+
         p .uk-text-bolder {
             font-weight: $extra-bold;
         }
@@ -35,9 +41,15 @@
         font-weight: $medium;
     }
 
-    p,
-    .uk-text-lead {
-        color: $white;
+    .posts h2 {
+        border: 0;
+        clip: rect(0 0 0 0);
+        height: 1px;
+        margin: -1px;
+        overflow: hidden;
+        padding: 0;
+        position: absolute;
+        width: 1px;
     }
 
     @media (min-width: $breakpoint-medium-max) {
